@@ -1,9 +1,10 @@
-a = int(input("Введите сумму выручки"))
-b = int(input("Введите сумму издержек"))
-
-if a > b:
-   profit = int(a - b)
-   rent = profit/a*100
+a = input("Введите сумму выручки ")
+b = input("Введите сумму издержек")
+aa = float(a)
+bb = float(b)
+if aa > bb:
+   profit = float(aa - bb)
+   rent = profit/aa*100
    print("Прибыль составляет: " + str(profit))
    d = int(input('Введите количество сотрудников'))
    e = profit/d
